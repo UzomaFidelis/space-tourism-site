@@ -7,6 +7,7 @@ export default {
         "space-dark": "hsl(230,35,7)",
         purply: "hsl(231,77,90)",
         "lighter-black": "hsl(231, 10, 45)",
+        "darker-black": "hsl(20,20,20)",
       },
       fontFamily: {
         bellefair: ["Bellefair", "serif"],

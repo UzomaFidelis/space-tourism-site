@@ -1,11 +1,13 @@
 import logo from "../assets/shared/logo.svg";
 import hamburger from "../assets/shared/icon-hamburger.svg";
 import close from "../assets/shared/icon-close.svg";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { useLocation } from "react-router-dom";
 import Navbar from "./Navbar";
 
 const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
+  const { pathname } = useLocation();
 
   const openNav = () => {
     setIsNavOpen(true);
@@ -18,6 +20,10 @@ const Header = () => {
     setIsNavOpen(false);
     document.body.style.overflow = "unset";
   };
+
+  useEffect(() => {
+    setIsNavOpen(false);
+  }, [pathname]);
 
   return (
     <header className="w-[100%] px-6 pt-6 pb-5 md:pb-8 md:px-10 lg:pt-[2.8rem] lg:pl-14 lg:pr-40">
