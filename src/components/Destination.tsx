@@ -28,7 +28,8 @@ const Destination = () => {
   });
 
   return (
-    <div>
+    <main>
+      <h1 className="sr-only">Destinations Page</h1>
       <p className="text-white text-center font-barlow-con uppercase tracking-[0.15em] md:mt-[1.95rem] md:text-left md:text-[1.2rem] md:tracking-[0.18em] md:pl-[3.4rem] md:mb-[3.5rem] lg:pl-[11.3rem] lg:text-[1.7rem] lg:mb-[2.7rem]">
         <span className="text-lighter-black">01</span> Pick your destination
       </p>
@@ -62,7 +63,7 @@ const Destination = () => {
           <DestinationText page={sliderPage} />
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 

@@ -28,7 +28,8 @@ const Technology = () => {
   });
 
   return (
-    <div className="md:pb-[4rem]">
+    <main className="md:pb-[4rem]">
+      <h1 className="sr-only">Technology Page</h1>
       <p className="text-white text-center font-barlow-con uppercase tracking-[0.18em] md:text-left md:mt-[1.91rem] md:text-[1.2rem] md:pl-[3rem] lg:pl-[10.4rem]">
         <span className="text-lighter-black">03</span> Space Launch 101
       </p>
@@ -84,7 +85,7 @@ const Technology = () => {
           <TechnologyText page={sliderPage} />
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 

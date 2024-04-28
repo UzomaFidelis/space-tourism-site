@@ -12,7 +12,8 @@ const Crew = () => {
   const [sliderPage, setSliderPage] = useState(0);
 
   return (
-    <div>
+    <main>
+      <h1 className="sr-only">Crew Page</h1>
       <p className="text-white text-center font-barlow-con uppercase tracking-[0.17em] md:text-left md:mt-[1.9rem] md:text-[1.2rem] md:tracking-[0.23rem] md:pl-[2.8rem] lg:pl-[10.5rem] lg:mt-[1rem] lg:text-[1.5rem]">
         <span className="text-purply">02</span> Meet your crew
       </p>
@@ -61,7 +62,7 @@ const Crew = () => {
           <CrewText page={sliderPage} />
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 

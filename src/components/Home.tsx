@@ -6,12 +6,12 @@ const Home = () => {
     <main className="text-center text-purply px-6 lg:flex lg:gap-[9.9rem] lg:mt-[8.2rem] lg:pb-[5rem]">
       <div className="lg:basis-[50%] lg:pl-[1.5rem] lg:text-left lg:pl-[8.9rem] lg:pr-[6rem]">
         <h1 className="sr-only">Space tourism home page</h1>
-        <h5 className="text-[1rem]/[4.7rem] tracking-[0.17em] uppercase font-barlow-con md:mt-[4.5rem] md:text-[1.3rem] md:tracking-[0.18rem] lg:text-[1.8rem] lg:tracking-[0.26rem]">
+        <h2 className="text-[1rem]/[4.7rem] tracking-[0.17em] uppercase font-barlow-con md:mt-[4.5rem] md:text-[1.3rem] md:tracking-[0.18rem] lg:text-[1.8rem] lg:tracking-[0.26rem]">
           so, you want to travel to
           <span className="block text-white font-bellefair text-[4.95rem] tracking-[-0.001em] md:mt-[2.3rem] md:text-[9rem] md:tracking-[0.03em] lg:mt-[3.3rem] lg:text-[9.3rem] lg:tracking-[0]">
             space
           </span>
-        </h5>
+        </h2>
         <p className="font-barlow-con mt-[1.85rem] tracking-[0.055em] leading-[1.56em] md:mt-[3.8rem] md:px-[8.7rem] md:text-[1.07rem]/[1.65em] lg:px-0 lg:text-[1.25rem] lg:tracking-[0.04em] lg:mt-[4.3rem]">
           Let's face it; if you want to go to space, you might as well genuinely
           go to outer space and not hover kind of on the edge of it. Well sit
