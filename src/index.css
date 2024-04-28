@@ -49,6 +49,10 @@
   position: relative;
 }
 
+.destination-dots-container .glider-dot:hover {
+  background-color: transparent;
+}
+
 .destination-dots-container .glider-dot.active::after {
   content: "";
   position: absolute;
@@ -118,7 +122,6 @@
   }
 
   .destination-dots-container .glider-dot:hover {
-    background-color: transparent;
     position: relative;
   }
 
