@@ -22,7 +22,7 @@ const Header = () => {
   };
 
   useEffect(() => {
-    setIsNavOpen(false);
+    closeNav();
   }, [pathname]);
 
   return (
