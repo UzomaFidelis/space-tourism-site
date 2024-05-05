@@ -5,14 +5,28 @@
 @layer base {
   @font-face {
     font-family: "Bellefair";
-    src: url("./assets/fonts/Bellefair-Regular.ttf");
+    src: url("./assets//fonts/Bellefair-Regular.eot");
+    src: url("./assets//fonts/Bellefair-Regular.eot?#iefix")
+        format("embedded-opentype"),
+      url("./assets/fonts/Bellefair-Regular.woff") format("woff"),
+      url("./assets/fonts/Bellefair-Regular.woff2") format("woff2"),
+      url("./assets/fonts/Bellefair-Regular.svg") format(svg),
+      url("./assets/fonts/Bellefair-Regular.ttf") format("truetype");
     font-weight: 400;
+    font-style: normal;
   }
 
   @font-face {
     font-family: "Barlow Condensed";
-    src: url("./assets/fonts/BarlowCondensed-Regular.ttf");
+    src: url("./assets/fonts/BarlowCondensed-Regular.eot");
+    src: url("./assets/fonts/BarlowCondensed-Regular.ttf") format("truetype"),
+      url("./assets/fonts/BarlowCondensed-Regular.woff2") format("woff"),
+      url("./assets/fonts/BarlowCondensed-Regular.woff2") format("woff2"),
+      url("./assets/fonts/BarlowCondensed-Regular.svg") format("svg"),
+      url("./assets/fonts/BarlowCondensed-Regular.eot?#iefix")
+        format("embedded-opentype");
     font-weight: 400;
+    font-style: normal;
   }
 }
 
